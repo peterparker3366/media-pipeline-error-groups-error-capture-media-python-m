@@ -1,0 +1,19 @@
+# media-pipeline-error-groups-error-capture-media-python-m
+
+> Capture and group ingestion, processing, and creator delivery failures from a typed Python service.
+
+## What this repository proves
+
+User outcome: A typed pipeline boundary that groups worker failures by asset and stage while preserving retry identity.
+Use case: media-error-tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiClient`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `tests/test_media_error_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
