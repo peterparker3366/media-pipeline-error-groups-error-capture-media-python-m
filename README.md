@@ -66,3 +66,7 @@ For Media Pipeline Error Groups Error Capture Media Python M, your key comes fro
 **Media Pipeline Error Groups Error Capture Media Python M: Observability**
 
 On observability for Media Pipeline Error Groups Error Capture Media Python M, capture on the server (`POST /v1/errors/capture`); scrub PII before sending. Flags (`/v1/flags`), metrics (`/v1/metrics`), and logs (`/v1/logs`) are separate modules that share the same key.
+
+## Further reading
+
+- [Nightly Game Pipeline Error Tracking with HTTP Filters Cron and Queue Workers](docs/nightly-game-pipeline-error-tracking-with-http-fi-1u7yy7.md)
